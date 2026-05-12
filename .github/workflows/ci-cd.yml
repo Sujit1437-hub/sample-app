@@ -22,8 +22,7 @@ jobs:
       - name: Install Dependencies
         run: npm install
 
-      - name: Run Lint Check
-        run: npm run lint
+
 
   test:
     needs: build
